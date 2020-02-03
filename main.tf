@@ -251,6 +251,7 @@ resource "aws_rds_cluster" "default" {
   apply_immediately                   = "${var.apply_immediately}"
   db_cluster_parameter_group_name     = "${var.db_cluster_parameter_group_name}"
   iam_database_authentication_enabled = "${var.iam_database_authentication_enabled}"
+  tags                                = ["${var.tags}"]
 }
 
 // Geneate an ID when an environment is initialised
