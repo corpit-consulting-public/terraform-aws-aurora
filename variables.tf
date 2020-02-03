@@ -255,6 +255,6 @@ variable "enabled" {
 }
 
 varaibles "tags" {
-  type = "list"
-  default = []
+  type = "map"
+  default = {}
 }
