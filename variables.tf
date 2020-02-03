@@ -254,7 +254,7 @@ variable "enabled" {
   description = "Whether the database resources should be created"
 }
 
-varaible "tags" {
+varible "tags" {
   type = "map"
   default = {}
 }
