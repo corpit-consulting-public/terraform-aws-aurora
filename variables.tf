@@ -253,3 +253,8 @@ variable "enabled" {
   default     = true
   description = "Whether the database resources should be created"
 }
+
+varaibles "tags" {
+  type = "list"
+  default = []
+}
