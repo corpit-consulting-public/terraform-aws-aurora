@@ -259,7 +259,7 @@ variable "tags" {
   default = {}
 }
 
-varaible "iam_roles" {
+variable "iam_roles" {
   type    = "list"
   default = []
 }
