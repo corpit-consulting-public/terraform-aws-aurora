@@ -258,3 +258,8 @@ variable "tags" {
   type = "map"
   default = {}
 }
+
+varaible "iam_roles" {
+  type    = "list"
+  default = []
+}
